@@ -2,7 +2,8 @@
 
 # 1. Pedir datos al usuarios
 nombre = input("escribe tu nombre: ")
-edad = input("esctibe tu edad: ")
+nombre = nombre.title()
+edad = input("escribe tu edad: ")
 peso = input("escribe tu peso en kg: ")
 estatura = input("escribe tu estatura en metros: ")
 # 2. Convertir al tipo correcto(casting)
@@ -17,7 +18,5 @@ print(f"Nombre: {nombre}")
 print(f"Edad: {edad} años")
 print(f"Peso: {peso} kg ")
 print(f"Estatura: {estatura} m")
-print(f"Tu IMC es: {imc: .2f}")
+print(f"Tu IMC es: {imc:.2f}")
  
-
-
